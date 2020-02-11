@@ -1,0 +1,40 @@
+
+body, html {
+    font-size: small;
+}
+body {
+    color:  #222;
+   
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+  .logo {
+    display: block;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: "272";
+    height: "92";
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    display: inline;
+    position: relative;
+    left: 130%;
+    
+}
+  .container {
+    display:grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr 1fr;
+  }
